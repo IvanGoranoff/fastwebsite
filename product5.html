@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ашваганда (Ashwagandha)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        #purchase-form, #review-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #purchase-form input, #review-form input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #purchase-form input[type="submit"], #review-form input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #purchase-form input[type="submit"]:hover, #review-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        #reviews {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ашваганда (Ashwagandha)</h1>
+
+    <img src="images/product5.jpg" alt="Продукт 5">
+        <p>Спомага за понижаване на стреса и тревожността, както и за подобряване на паметта и когнитивната функция и също така може да спомогне за по-добро спортно представяне (сила и издръжливост)
+<br>
+            Ashwagandha е древна билка от аюрведа, която има многобройни здравословни ползи!</p>
+        <p>Цена: 29.00лв</p>
+
+    <form id="purchase-form">
+        <input type="text" id="name" placeholder="Име"
+        style="
+    padding-right: 0px;
+    padding-left: 0px;
+">
+        <input type="text" id="address" placeholder="Адрес"
+        style="
+    padding-right: 0px;
+    padding-left: 0px;
+">
+        <input type="submit" value="Изпрати">
+    </form>
+
+    <div id="reviews">
+        <h2>Потребителски ревюта</h2>
+        <p>Много хубав продукт!</p>
+    </div>
+
+    <form id="review-form">
+        <input type="text" id="review" placeholder="Коментар"
+        style="
+    padding-right: 0px;
+    padding-left: 0px;
+">
+        <input type="submit" value="Изпрати">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
